@@ -1,0 +1,43 @@
+version: '3'
+services:
+  scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - my-network
+    command: python scheduler.py
+    env_file:
+      - .env
+
+  flask_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+    networks:
+      - my-network
+    command: python flask_api_setup.py
+    env_file:
+      - .env
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - 5435:5432
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
+
+
