@@ -1,0 +1,8 @@
+pandas
+requests
+flask==2.3.2
+psycopg2-binary
+psycopg2
+tqdm        
+python-dotenv
+schedule
