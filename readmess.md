@@ -64,12 +64,13 @@ A small sample of this data can be found below:
 If you put all these events on a timeline for each user, you will find short periods of high activity, 
 followed by longer periods of inactivity. 
 
-![](images/timeline.png)
+![image](https://github.com/markrichers/Data-Engineer-SligroETL/assets/50198601/07a48a14-1434-42d4-be44-956c3a6905de)
 
 
 These high activity periods can be considered as a users' session.
 
-![](images/sessions.png)
+![image](https://github.com/markrichers/Data-Engineer-SligroETL/assets/50198601/d061b97f-abe6-4ef0-89a3-74c7397b6b3b)
+
 
 ## The assignment
 ### Step 1: Sessionize
