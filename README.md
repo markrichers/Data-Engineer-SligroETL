@@ -4,7 +4,7 @@ Sligro-shop is a project to analyze shopping data with the goal of calculating m
 
 ## Design Pipeline
 
-![Data Engineer (1)](https://github.com/Xccelerated-Assessments/de-assessment-markrichers/assets/50198601/a04a1bba-cb2b-47d7-b686-d33e948c7d61)
+![Data Engineer (1)](https://github.com/markrichers/Data-Engineer-SligroETL/assets/50198601/df2a770f-08c0-4c34-b0a9-33b286caef73)
 
 
 ## Setup and Usage
