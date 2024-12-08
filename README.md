@@ -1,7 +1,7 @@
 # 🛒 Project Sligro-Tech Shop
 
 <p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/55fcea07-8c3c-4f14-9101-51c23c5da524)" width="200"/>
+  <img src="https://github.com/user-attachments/assets/55fcea07-8c3c-4f14-9101-51c23c5da524" alt="Sligro-Tech Shop Logo" width="400"/>
 </p>
 
 ---
