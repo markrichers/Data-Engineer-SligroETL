@@ -1,6 +1,38 @@
-# Project Sligro-Tech shop
+# 🛒 Project Sligro-Tech Shop
 
-Sligro-shop is a project to analyze shopping data with the goal of calculating median values using the Extract, Transform, Load (ETL) framework. The dataset used for this project is limited to approximately 10,000 lines, which makes it possible to use Pandas for processing. However, the approach can be scaled up for larger datasets using Pyspark or similar distributed data processing frameworks.
+<p align="center">
+  <img src="https://via.placeholder.com/200?text=Sligro-Tech+Shop+Logo" alt="Sligro-Tech Shop Logo" width="200"/>
+</p>
+
+---
+
+<p align="center">
+  <b>Data-Driven Insights for Smarter Shopping</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Framework-ETL-orange?style=flat-square" alt="ETL Framework">
+  <img src="https://img.shields.io/badge/Data-Pandas-blue?style=flat-square" alt="Pandas">
+  <img src="https://img.shields.io/badge/Scalable-PySpark-green?style=flat-square" alt="PySpark">
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License">
+</p>
+
+---
+
+## 🌟 About Sligro-Shop Analytics
+
+**Sligro-Shop Analytics** is a data analysis project designed to process shopping data and calculate insights, including **median values**, using the **Extract, Transform, Load (ETL)** framework.
+
+### Key Features:
+- Handles datasets up to **10,000 lines** using **Pandas**.
+- Offers scalability for larger datasets through **PySpark** or other distributed data processing tools.
+- Provides actionable insights by transforming raw shopping data into meaningful analytics.
+
+### Why Sligro-Tech Shop?
+- Small-scale datasets? Use Pandas for quick and efficient processing.
+- Growing business? Transition seamlessly to distributed frameworks for big data.
+
+---
 
 ## Design Pipeline
 
